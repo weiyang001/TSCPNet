@@ -3,17 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>并排放置两个 embed 元素</title>
+    <title>TSCPNet</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            /* 居中文本 */
+        }
+
+        .paper-info {
+            margin: 0 auto;
+            /* 水平居中 */
+            max-width: 600px;
+            /* 最大宽度 */
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
         .embed-container {
             display: inline-block;
-            width: 45%;
+            width: 50%;
             /* 调整宽度以适应你的需求 */
         }
     </style>
 </head>
 
 <body>
+
+    <div class="paper-info">
+        <h1>Consistent Panoramic Video Style Transfer via Temporal-Spatial Cross Perception</h1>
+        <h2>Weiyu Wang, Chunmei Qing, Junpeng Tan and Xiangmin Xu</h2>
+        <p>Due to the hyper-view structure of panoramic video and the flicker in styl-ized video, the temporal-spatial
+            consistency
+            of over-the-horizon should be considered when transferring panoramic video style. To this end, we propose a
+            novel
+            Temporal-Spatial Cross Perception Style Transfer Network (TSCPNet), which considers the inherent
+            characteristics of
+            panoramic video and temporal coherence to enhance the robustness of inter-frame variation. Specifically,
+            based on the
+            cross complementation structure, multiple branch-es of the continuous dilated convolution are designed to
+            improve the
+            spatial structure correlation in the over-the-horizon. To capture richer stylistic attrib-utes and realism
+            of rendering,
+            we propose a multi-perception semantic fusion module that performs local adaptation and global statistical
+            distribution
+            se-mantic fusion. Besides, to better balance the temporal-spatial consistency of stylized panoramic videos,
+            we propose a
+            weighted panorama structural simi-larity loss in the training step. Qualitative and quantitative evaluations
+            show that
+            TSCPNet performs well in panoramic video and panoramic image style transfer.</p>
+    </div>
 
     <div class="embed-container">
         <embed src="/4-1.pdf" type="application/pdf" width="100%" height="600px">
@@ -24,14 +76,14 @@
     <div class="embed-container">
         <embed src="/5-1.pdf" type="application/pdf" width="100%" height="600px">
     </div>
-    <div class="embed-container"></div>
-    <embed src="/5-2.pdf" type="application/pdf" width="100%" height="600px">
+    <div class="embed-container">
+        <embed src="/5-2.pdf" type="application/pdf" width="100%" height="600px">
     </div>
     <div class="embed-container">
         <embed src="/6-1.pdf" type="application/pdf" width="100%" height="600px">
     </div>
-    <div class="embed-container"></div>
-    <embed src="/6-2.pdf" type="application/pdf" width="100%" height="600px">
+    <div class="embed-container">
+        <embed src="/6-2.pdf" type="application/pdf" width="100%" height="600px">
     </div>
 
 </body>
