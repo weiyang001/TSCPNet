@@ -1,13 +1,39 @@
-Hello World!
-<div>
-    <embed src="/4-1.pdf" type="application/pdf" width="50%" height="600px">
-    <embed src="/4-2.pdf" type="application/pdf" width="50%" height="600px">
-</div>
-<div>
-    <embed src="/5-1.pdf" type="application/pdf" width="50%" height="600px">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>并排放置两个 embed 元素</title>
+    <style>
+        .embed-container {
+            display: inline-block;
+            width: 45%;
+            /* 调整宽度以适应你的需求 */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="embed-container">
+        <embed src="/4-1.pdf" type="application/pdf" width="50%" height="600px">
+    </div>
+    <div class="embed-container">
+        <embed src="/4-2.pdf" type="application/pdf" width="50%" height="600px">
+    </div>
+    <div class="embed-container">
+        <embed src="/5-1.pdf" type="application/pdf" width="50%" height="600px">
+    </div>
+    <div class="embed-container"></div>
     <embed src="/5-2.pdf" type="application/pdf" width="50%" height="600px">
-</div>
-<div>
-    <embed src="/6-1.pdf" type="application/pdf" width="50%" height="600px">
+    </div>
+    <div class="embed-container">
+        <embed src="/6-1.pdf" type="application/pdf" width="50%" height="600px">
+    </div>
+    <div class="embed-container"></div>
     <embed src="/6-2.pdf" type="application/pdf" width="50%" height="600px">
-</div>
+    </div>
+
+</body>
+
+</html>
